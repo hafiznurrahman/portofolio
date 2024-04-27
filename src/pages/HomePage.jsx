@@ -45,7 +45,7 @@ export default function HomePage() {
             className="w-1/5 h-1/5 aspect-square outline-none outline-2 outline-offset-0 outline-gray-900 dark:outline-gray-50 rounded-3xl mb-4"
           />
           <PageSection
-            section="Full Stack Developer•Junior"
+            section="Front End Developer•Junior"
             title="Hai, Nama saya Hafiz Nur Rahman"
             description="Berpengalaman +- 1 Tahun, Siap untuk belajar hal-hal baru, penyelesaian masalah dan bekerja secara tim."
           />
