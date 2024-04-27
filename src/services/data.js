@@ -71,7 +71,7 @@ export const data = {
     {
       id: "2",
       link: "/",
-      image: "/assets/project_thumbnail/thumbnail_topup_game.png",
+      image: "/assets/project_thumbnail/thumbnail_topupgame.png",
       title: "Topup Game",
       description:
         "proyek ini saya bangun menggunakan React dan Tailwind. (tahap pengembangan)"
