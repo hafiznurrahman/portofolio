@@ -46,14 +46,19 @@ export const data = {
       icon: "/assets/technology_icon/react_icon.png",
       text: "react",
       color: "#00d8ff"
+    },
+    {
+      icon: "/assets/technology_icon/github_icon.png",
+      text: "github",
+      color: "#050505"
     }
   ],
   projects: [
     {
       id: "1",
       link: "https://portofoliohafiznurrahman.vercel.app/",
-      image: "/assets/project_thumbnail/thumbnail_portfolio.png",
-      title: "Portfolio",
+      image: "/assets/project_thumbnail/thumbnail_portofolio.png",
+      title: "Portofolio",
       description:
         "Ini merupakan website portofolio saya, dengan desain UI yang sederhana, interaktif dan modern."
     },
@@ -64,6 +69,7 @@ export const data = {
       title: "Topup Game",
       description:
         "proyek ini saya bangun menggunakan React dan Tailwind. (tahap pengembangan)"
-    }
+    },
+
   ]
 };
