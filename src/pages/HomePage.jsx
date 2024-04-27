@@ -27,11 +27,14 @@ export default function HomePage() {
   return (
     <>
       <section className="w-screen h-dvh font-black bg-[#B80000] flex flex-col justify-center items-center ">
-        <img
-          src="/assets/motionHNRop.gif"
-          alt="icon HNR animation"
-          className="w-1/2 h-auto aspect-square select-none landscape:w-1/4"
-        />
+        <video
+          autoPlay
+          muted
+          loop
+          className="w-1/2 h-auto aspect-square select-none landscape:w-1/4 pointer-events-none"
+        >
+          <source src="/assets/motionHNR.webm" type="video/webm" />
+        </video>
         <h1 className="text-xs text-gray-50 leading-none">Hafiz Nur Rahman</h1>
       </section>
       <main className="flex flex-col gap-8 md:w-10/12 mx-auto p-5 relative">
@@ -40,7 +43,7 @@ export default function HomePage() {
         <div className="absolute -top-[15px] left-1/2 -translate-x-1/2 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-b-[15px] border-b-gray-50 dark:border-b-gray-900"></div>
         <section>
           <img
-            src="/assets/iconHNRop.png"
+            src="/assets/iconHNR.webp"
             alt="icon HNR"
             className="w-1/5 h-1/5 aspect-square outline-none outline-2 outline-offset-0 outline-gray-900 dark:outline-gray-50 rounded-3xl mb-4"
           />
