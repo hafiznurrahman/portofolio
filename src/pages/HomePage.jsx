@@ -57,7 +57,7 @@ export default function HomePage() {
             title="Ini adalah daftar proyek saya"
             description="proyek ini saya buat untuk mengimplementasikan apa saja yang telah saya pelajari selama ini."
           />
-          <div className="grid grid-cols-2 gap-3 landscape:grid-cols-4 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-4 landscape:grid-cols-4 md:grid-cols-4">
             {data.projects.map((project, index) => (
               <Card
                 number={index + 1}
@@ -78,7 +78,7 @@ export default function HomePage() {
           />
           <div className="w-full flex flex-wrap gap-4 justify-center landscape:w-4/6 md:w-4/6 mx-auto">
             {data.skill.map(skill => (
-              <Skill image={skill.icon} text={skill.text} color={skill.color} />
+              <Skill image={skill.icon} text={skill.text} color={skill.color} bgColor={skill.bgColor} />
             ))}
           </div>
         </section>

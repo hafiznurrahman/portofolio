@@ -25,32 +25,38 @@ export const data = {
     {
       icon: "/assets/technology_icon/html_icon.png",
       text: "html",
-      color: "#ef642a"
+      bgColor: "#ef642a",
+      color: "#ffffff"
     },
     {
       icon: "/assets/technology_icon/css_icon.png",
       text: "css",
-      color: "#0089ca"
+      bgColor: "#0089ca",
+      color: "#ffffff"
     },
     {
       icon: "/assets/technology_icon/javascript_icon.png",
       text: "javascript",
-      color: "#ffd83a"
+      bgColor: "#ffd83a",
+      color: "#ffffff"
     },
     {
       icon: "/assets/technology_icon/tailwind_icon.png",
       text: "tailwind",
+      bgColor: "#161d2d",
       color: "#17bfcc"
     },
     {
       icon: "/assets/technology_icon/react_icon.png",
       text: "react",
+      bgColor: "#161d2d",
       color: "#00d8ff"
     },
     {
       icon: "/assets/technology_icon/github_icon.png",
       text: "github",
-      color: "#050505"
+      bgColor: "#050505",
+      color: "#ffffff"
     }
   ],
   projects: [
@@ -69,7 +75,6 @@ export const data = {
       title: "Topup Game",
       description:
         "proyek ini saya bangun menggunakan React dan Tailwind. (tahap pengembangan)"
-    },
-
+    }
   ]
 };

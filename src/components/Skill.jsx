@@ -1,4 +1,4 @@
-export default function Skill({ image, text, color }) {
+export default function Skill({ image, text, color, bgColor }) {
   return (
     <div
       className="flex justify-center items-center transition-all duration-500 hover:translate-x-1.5"
@@ -7,16 +7,15 @@ export default function Skill({ image, text, color }) {
       <img
         src={image}
         alt={text}
-        className="w-11 h-11 bg-gray-900 aspect-square rounded-lg select-none"
+        className="w-11 h-11 bg-gray-900 aspect-square outline-none outline-offset-0 outline-1 outline-gray-900 dark:outline-gray-50 rounded-lg select-none"
       />
-      <div className="h-8 flex justify-center items-center bg-gray-200 rounded-r-lg p-2">
-        <span
-          className="text-xs font-black uppercase drop-shadow-[0.5px_0.5px_0_#000]"
-          style={{color:color}}
-        >
-          {text}
-        </span>
-      </div>
+
+      <span
+        className="text-xs font-black uppercase outline-none outline-offset-0 outline-1 outline-gray-900 dark:outline-gray-50 rounded-r-lg p-2 -z-[1]"
+        style={{ backgroundColor: bgColor, color: color }}
+      >
+        {text}
+      </span>
     </div>
   );
 }

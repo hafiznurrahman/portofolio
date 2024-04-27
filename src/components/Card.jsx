@@ -2,7 +2,7 @@ export default function Card({ number, link, image, title, description }) {
   return (
     <a
       href={link}
-      className="w-full h-auto bg-gray-50 dark:bg-gray-900 border-2 border-gray-900 dark:border-gray-50 shadow-[2px_2px_0_#000] shadow-gray-900 dark:shadow-gray-50 rounded-3xl p-2 relative transition-transform duration-500 hover:scale-95"
+      className="w-full h-full bg-gray-50 dark:bg-gray-900 border-2 border-gray-900 dark:border-gray-50 shadow-[2px_2px_0_#000] shadow-gray-900 dark:shadow-gray-50 rounded-3xl p-2 relative transition-transform duration-500 hover:scale-95"
       translate="no"
       target="_blank"
     >
